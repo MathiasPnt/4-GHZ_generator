@@ -2,8 +2,25 @@
 
 Numerical simulations based on a phenomenological model of an experimental apparatus using the linear optical circuit framework Perceval. This code is used in a scientific project that demonstrate a high fidelity preparation of path-encoded 4-qubit GHZ states on a tunable glass photonic chip.
 
-This script requires a specific fork of the paskage Perceval:
-'pip install git+https://github.com/MathiasPnt/Perceval.git@imperfect_sps'
+# Key Features
 
-The notebook "Path-encoded_4GHZ_generator" is used to reconstruct the density matrix from measured indistinguishability and multiphoton compoonent. 
+* reconstruct the density matrix from measured indistinguishability (M) and multiphoton component (g2)
+* easily adaptable to any optical circuit
+
+
+# Installation
+
+Perceval requires:
+
+* Python 3.9 or above
+
+This script requires a specific fork of the package Perceval to run. We recommend installing it with `pip`:
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+pip install git+https://github.com/MathiasPnt/Perceval.git@imperfect_sps
+```
+
+
 
