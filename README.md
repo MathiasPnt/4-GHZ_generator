@@ -1,5 +1,7 @@
 # Numerical simulations of on-chip generation of 4-partite GHZ states
 
+[![DOI](https://zenodo.org/badge/550971860.svg)](https://zenodo.org/badge/latestdoi/550971860)
+
 Numerical simulations based on a phenomenological model of an experimental apparatus using the linear optical circuit framework Perceval. This code is used in a scientific project that demonstrate a high fidelity preparation of path-encoded 4-qubit GHZ states on a tunable glass photonic chip.
 
 # Key Features
